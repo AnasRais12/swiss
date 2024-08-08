@@ -10,6 +10,11 @@ import { IoAirplane, IoMenu } from "react-icons/io5";
 import { IoAdd } from "react-icons/io5";
 import { IoMenuSharp } from "react-icons/io5";
 import { FaRegCreditCard } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa6";
 
 const page = () => {
   return (
@@ -231,13 +236,30 @@ const page = () => {
             <p className="text-[17px] sm:text-center text-center md:text-start">Travel Safety and flexible with a rental car from our partner</p>
           </div>
         </div>
-        <div className="lg:w-[29.5%] md:w-[80%] sm:w-full w-full  border-2 border-black ">
+        <div className="lg:w-[29.5%] md:w-[80%] sm:w-full w-full  border-2 border-black  ">
         <div className="flex flex-col gap-5 pb-[25px] pt-[10px] px-4">
             <h1 className="text-[22px] font-bold sm:text-center text-center md:text-start">Swiss Choice</h1>
             <p className="text-[17px] sm:text-center text-center md:text-start">Travel Safety and flexible with a rental car from our partner</p>
           </div>
         </div>
       </div>
+
+<div className="w-full bg-gray-100 flex flex-col  justify-center items-center font-bold text-[50px] pt-16 gap-8 pb-2 border-b-4 border-gray-100  ">
+<div className="lg:w-[20%] md:w-[25%] sm:w-[25%]  w-[33%]">
+  <img className=" image w-full " src="images/swiss-logo.svg"/>
+  </div>
+  <div className="lg:w-[25%] md:w-[40%] sm:w-[32%]   flex justify-center sm:gap-3 gap-3 md:gap-7 ">
+    <FaFacebook className="  text-[25px] sm:text-[35px] text-blue-700"/>
+    <FaDiscord className="sm:text-[35px] text-[25px] text-blue-600"/>
+    <FaInstagramSquare className="  sm:text-[35px] text-[25px] text-pink-700"/>
+    <FaLinkedin className="sm:text-[35px] text-[25px] text-blue-600"/>
+    <FaYoutube className="sm:text-[35px] text-[25px] text-red-600"/>
+  </div>
+  <div className="md:w-[45%] sm:w-full px-4 sm:text-[17px] text-[15px] flex justify-center">
+    <h1 className="text-center">Copyright 2024 right reserved, All Right Reserved <span className="text-red-800"><a className=" decoration-none">SWISS</a></span></h1>
+  </div>
+</div>
+      
     </>
   );
 };

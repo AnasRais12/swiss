@@ -5,7 +5,6 @@
 @media (min-width: 1020px) and (max-width: 1320px) {
   .heading {
       font-size: 20px;
-      color: red;
   }
 }
 @media (min-width: 200px) and (max-width: 300px) {
